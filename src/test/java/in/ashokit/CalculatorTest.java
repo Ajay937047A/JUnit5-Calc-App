@@ -14,4 +14,13 @@ public class CalculatorTest {
 		assertEquals(actualResult, exceptedResult);
 	}
 
+	@Test
+	public void mulTest() {
+		Calculator calc = new Calculator();
+		int actualMulResult = calc.mul(10, 5);
+		int exceptedMulResult = 50;
+		assertEquals(actualMulResult, exceptedMulResult);
+
+	}
+
 }
